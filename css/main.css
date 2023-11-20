@@ -458,6 +458,9 @@
         height: 300px;
         width: 100%;
     }
+    .galeria-container2{
+        flex-wrap: wrap;
+    }
     /* MODA */
     .moda .moda-titulo {
       font-size: 19px;
