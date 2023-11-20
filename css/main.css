@@ -1,0 +1,561 @@
+@font-face {
+    font-family: "Poppins";
+    src: url(../font/Poppins-ExtraLight.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+    background: transparent;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 3rem;
+    color: black;
+  }
+  .header .logo {
+    display: flex;
+    justify-content: left;
+  }
+  .header .nav {
+    display: flex;
+    justify-content: right;
+  }
+  .header .menu {
+    list-style-type: none;
+    display: flex;
+    gap: 1rem;
+    color: black;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .header .menu .menu-item:hover {
+    background-color: #EBEBD3;
+    border-radius: 100%;
+  }
+  .header .menu .menu-link {
+    color: black;
+    text-decoration: none;
+  }
+  
+  .fade-in-fwd {
+    animation: fade-in-fwd 0.6s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  }
+  @keyframes fade-in-fwd {
+    0% {
+      transform: translateZ(-80px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateZ(0);
+      opacity: 1;
+    }
+  }
+  .bienvenidos {
+    display: block;
+    text-align: center;
+  }
+  .bienvenidos .bienvenidos-titulo {
+    padding-bottom: 20px;
+    width: 22rem;
+    border-bottom: 1px solid black;
+    margin: 0 auto 30px;
+  }
+  
+  .moda {
+    display: block;
+    text-align: center;
+  }
+  .moda .moda-titulo {
+    padding-bottom: 20px;
+    width: 10rem;
+    border-bottom: 1px solid black;
+    margin: 0 auto 30px;
+  }
+  
+  .tendencias {
+    display: block;
+    text-align: center;
+  }
+  .tendencias .tendencias-titulo {
+    padding-bottom: 20px;
+    width: 10rem;
+    border-bottom: 1px solid black;
+    margin: 0 auto 30px;
+    font-weight: bold;
+    font-size: 1.8rem;
+    color: black;
+  }
+  
+  .lifestyle {
+    display: block;
+    text-align: center;
+  }
+  .lifestyle .lifestyle-titulo {
+    padding-bottom: 20px;
+    width: 10rem;
+    border-bottom: 1px solid black;
+    margin: 0 auto 30px;
+  }
+  
+  .viajes {
+    display: block;
+    text-align: center;
+  }
+  .viajes .viajes-titulo {
+    padding-bottom: 20px;
+    width: 10rem;
+    border-bottom: 1px solid black;
+    margin: 0 auto 30px;
+    font-weight: bold;
+    font-size: rem;
+    color: black;
+  }
+  
+  .contacto {
+    display: block;
+    text-align: center;
+  }
+  .contacto .contacto-titulo {
+    padding-bottom: 20px;
+    width: 10rem;
+    border-bottom: 1px solid black;
+    margin: 0 auto 30px;
+  }
+  
+  .galeria {
+    padding-block: 1rem;
+    text-align: center;
+    margin-inline: 1rem;
+  }
+  .galeria .galeria-title {
+    text-align: center;
+    margin-bottom: 1rem;
+    padding: 1rem;
+  }
+  .galeria .texto {
+    text-align: left;
+  }
+  .galeria .galeria-container {
+    display: flex;
+    max-width: 1000px;
+    margin-inline: auto;
+    gap: 1rem;
+  }
+  .galeria .galeria-container .galeria-foto {
+    height: 100%;
+    width: 100%;
+    transition: 1s;
+  }
+  .galeria .galeria-container .galeria-foto img {
+    width: 100%;
+    aspect-ratio: 1/1;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .galeria .galeria-container .galeria-foto:hover {
+    transform: scale(1.3, 1.3) translateY(-30px);
+  }
+  
+  section {
+    text-align: center;
+    font-size: 18px;
+    padding-inline: 1rem;
+  }
+  
+  .tendencias-list {
+    text-align: left;
+  }
+  .tendencias-list .tendencias-items {
+    margin-left: 2rem;
+  }
+  
+  .style-club {
+    padding-top: 1rem;
+  }
+  
+  .galeria2 {
+    padding-block: 1rem;
+    text-align: center;
+  }
+  .galeria2 .galeria-title2 {
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 24px;
+  }
+  .galeria2 .galeria-container2 {
+    display: flex;
+    max-width: 1000px;
+    margin-inline: auto;
+    gap: 1rem;
+  }
+  .galeria2 .galeria-foto {
+    height: 100%;
+    width: 100%;
+    transition: 5s;
+  }
+  .galeria2 .galeria-foto img {
+    width: 100%;
+    aspect-ratio: 1/1;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .galeria2 .galeria-foto:hover {
+    transition: 1s;
+    transform: scale(1.3, 1.3) translateY(-30px);
+  }
+  .galeria2 p {
+    text-align: left;
+  }
+  
+  .pinterest-moda .pinterest-moda-post .pint1 {
+    padding-top: 2rem;
+    height: 449px;
+    width: 200px;
+  }
+  .pinterest-moda .pinterest-moda-post .pint2 {
+    padding-top: 2rem;
+    height: 449px;
+    width: 200px;
+  }
+  .pinterest-moda .pinterest-moda-post .pint3 {
+    padding-top: 2rem;
+    height: 449px;
+    width: 200px;
+  }
+  .pinterest-moda .pinterest-moda-post .pint4 {
+    padding-top: 2rem;
+    height: 449px;
+    width: 200px;
+  }
+  
+  .carousel .carousel-inner {
+    height: 100%;
+    width: 100%;
+  }
+  .carousel .carousel-inner .carousel-item {
+    text-align: center;
+  }
+  .carousel .carousel-inner .carousel-item .carousel-img {
+    align-items: center;
+  }
+  
+  .card {
+    width: 50%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    margin-inline: auto;
+  }
+  .card .card-img {
+    height: 80%;
+    width: 100%;
+  }
+  .card .btn {
+    height: 3rem;
+    width: 8rem;
+    align-items: center;
+    text-align: center;
+  }
+  .card .btn .btn-primary {
+    padding-top: 0.5rem;
+    background-color: black;
+    border-color: black;
+    text-align: center;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: "item1  item2 " "item3  item4";
+  }
+  .grid .grid-item1 {
+    grid-area: item1;
+    transition: 1s;
+  }
+  .grid .grid-item1:hover {
+    transform: scale(1, 1) translateY(-30px);
+  }
+  .grid .grid-item2 {
+    grid-area: item2;
+    transition: 1s;
+  }
+  .grid .grid-item2:hover {
+    transform: scale(1, 1) translateY(-30px);
+  }
+  .grid .grid-item3 {
+    grid-area: item3;
+    transition: 1s;
+  }
+  .grid .grid-item3:hover {
+    transform: scale(1, 1) translateY(-30px);
+  }
+  .grid .grid-item4 {
+    grid-area: item4;
+    transition: 1s;
+  }
+  .grid .grid-item4:hover {
+    transform: scale(1, 1) translateY(-30px);
+  }
+  .grid .link-grid {
+    color: black;
+    text-decoration: none;
+  }
+  .grid .grid-image {
+    margin-top: 3rem;
+    height: 400px;
+    width: 330px;
+    border-radius: 3%;
+  }
+  .grid .grid-titulo {
+    max-width: 50%;
+    text-align: center;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    margin: 4px auto 10px;
+  }
+  .grid .grid-sub {
+    max-width: 50%;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    margin: 4px auto 10px;
+  }
+  
+  .formulario {
+    padding-top: 2rem;
+  }
+  .formulario .formulario-contacto .casilla {
+    padding-bottom: 0.5rem;
+  }
+  .formulario .formulario-contacto .casilla .nombre {
+    height: 3rem;
+    width: 30rem;
+    padding: 1rem;
+    border-style: solid;
+    border-width: 0.2rem;
+    border-color: black;
+    border-radius: 2rem;
+  }
+  .formulario .formulario-contacto .casilla .email {
+    padding: 1rem;
+    height: 3rem;
+    width: 30rem;
+    border-style: solid;
+    border-width: 0.2rem;
+    border-color: black;
+    border-radius: 2rem;
+  }
+  .formulario .formulario-contacto .casilla .telefono {
+    padding: 1rem;
+    height: 3rem;
+    width: 30rem;
+    border-style: solid;
+    border-width: 0.2rem;
+    border-color: black;
+    border-radius: 2rem;
+  }
+  .formulario .formulario-contacto .casilla-texto .text-area {
+    padding: 1rem;
+    height: 10rem;
+    width: 30rem;
+    border-style: solid;
+    border-width: 0.2rem;
+    border-color: black;
+    border-radius: 2rem;
+  }
+  .formulario .formulario-contacto .botones .boton-enviar {
+    padding: 0.5rem;
+    height: 3rem;
+    width: 15rem;
+    border-style: solid;
+    border-width: 0.2rem;
+    border-color: black;
+    border-radius: 2rem;
+  }
+  .formulario .formulario-contacto .botones .boton-borrar {
+    padding: 0.5rem;
+    height: 3rem;
+    width: 15rem;
+    border-style: solid;
+    border-width: 0.2rem;
+    border-color: black;
+    border-radius: 2rem;
+  }
+  
+  .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-block: 2rem;
+    gap: 1rem;
+  }
+  .footer .footer-icons {
+    display: flex;
+    gap: 1rem;
+  }
+  .footer .footer-icons a {
+    color: black;
+    font-size: 1.5rem;
+  }
+  
+  @media screen and (max-width: 760px) {
+    .header {
+      flex-direction: column;
+      font-size: 15px;
+    }
+    .grid {
+      padding: 2rem 2rem 0 2rem;
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-rows: repeat(3, 1fr);
+      grid-template-areas: "item1" "item2" "item3";
+    }
+    .grid .grid-image {
+      height: 250px;
+      width: 200px;
+    }
+    .grid .grid-titulo {
+      font-size: 16px;
+      max-width: 50%;
+    }
+    .grid .grid-sub {
+      max-width: 45%;
+      font-size: 12px;
+      margin: 12px auto 10px;
+      padding-bottom: 1.5rem;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    /* INICIO */
+    .header {
+      flex-direction: column;
+      font-size: 13px;
+    }
+    .header .nav {
+      justify-content: center;
+    }
+    .bienvenidos .bienvenidos-titulo {
+      font-size: 19px;
+      width: 15rem;
+      padding-bottom: 19px;
+    }
+    .bienvenidos .bienvenidos-titulo p {
+      font-size: 14px;
+      margin-inline: 1rem;
+    }
+    .galeria .galeria-title {
+      font-size: 16px;
+    }
+    /* MODA */
+    .moda .moda-titulo {
+      font-size: 19px;
+      width: 10rem;
+      padding-bottom: 10px;
+    }
+    
+    .pinterest-moda .pinterest-moda-post .pint1 {
+      padding-top: 1rem;
+      height: 380px;
+      width: 160px;
+    }
+    .pinterest-moda .pinterest-moda-post .pint2 {
+      padding-top: 1rem;
+      height: 380px;
+      width: 160px;
+    }
+    .pinterest-moda .pinterest-moda-post .pint3 {
+      padding-top: 1rem;
+      height: 380px;
+      width: 160px;
+    }
+    .pinterest-moda .pinterest-moda-post .pint4 {
+      padding-top: 1rem;
+      height: 380px;
+      width: 160px;
+    }
+    /* TENDENCIAS */
+    .tendencias .tendencias-titulo {
+      font-size: 19px;
+      width: 10rem;
+      padding-bottom: 10px;
+    }
+    .texto .style-club {
+      padding-top: 1rem;
+    }
+    .galeria2 .galeria-title2 {
+      font-size: 18px;
+    }
+    /* LIFESTYLE */
+    .lifestyle .lifestyle-titulo {
+      font-size: 19px;
+      padding-bottom: 10px;
+      width: 8.5rem;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-rows: repeat(4, 1fr);
+      grid-template-areas: "item1" "item2" "item3" "item4";
+    }
+    .grid .grid-image {
+      height: 250px;
+      width: 200px;
+    }
+    .grid .grid-titulo {
+      font-size: 16px;
+      max-width: 50%;
+    }
+    .grid .grid-sub {
+      max-width: 45%;
+      font-size: 12px;
+      margin: 12px auto 10px;
+      padding-bottom: 1.5rem;
+    }
+    /* CONTACTO */
+    .contacto .contacto-titulo {
+      font-size: 19px;
+      padding-bottom: 10px;
+      width: 9rem;
+    }
+    .formulario .formulario-contacto .casilla .nombre {
+      height: 2rem;
+      width: 23rem;
+    }
+    .formulario .formulario-contacto .casilla .email {
+      height: 2rem;
+      width: 23rem;
+    }
+    .formulario .formulario-contacto .casilla .telefono {
+      height: 2rem;
+      width: 23rem;
+    }
+    .formulario .formulario-contacto .casilla-texto .text-area {
+      height: 8rem;
+      width: 23rem;
+    }
+    .formulario .formulario-contacto .botones .boton-enviar {
+      padding-bottom: 1.5rem;
+      height: 2rem;
+      width: 10rem;
+    }
+    .formulario .formulario-contacto .botones .boton-borrar {
+      height: 2rem;
+      width: 10rem;
+      padding-bottom: 1.5rem;
+    }
+    /* VIAJES */
+    .viajes .viajes-titulo {
+      font-size: 19px;
+      width: 7rem;
+      padding-bottom: 10px;
+    }
+    .card {
+      width: 70%;
+    }
+  }/*# sourceMappingURL=estilos.css.map */
