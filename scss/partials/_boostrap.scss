@@ -1,0 +1,39 @@
+.carousel{
+    .carousel-inner{
+        height: 100%;
+        width: 100%;
+        
+        .carousel-item{
+            text-align: center;
+            
+            .carousel-img{
+                align-items: center;
+            }
+        }
+    }
+}
+.card{
+    width: 50%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    margin-inline: auto;
+    
+    .card-img{
+        height: 80%;
+        width: 100%;
+    }
+    .btn{
+        height: 3rem;
+        width: 8rem;
+        align-items: center;
+        text-align: center;
+        
+        .btn-primary{
+            padding-top: .5rem;
+            background-color: black;
+            border-color: black;
+            text-align: center;
+        }
+    }
+}

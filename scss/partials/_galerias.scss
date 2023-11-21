@@ -1,0 +1,109 @@
+.galeria{
+    padding-block: 1rem;
+    text-align: center;
+    margin-inline: 1rem;
+    
+    .galeria-title{
+        text-align: center;
+        margin-bottom:1rem;
+        padding: 1rem;
+    }
+    .texto{
+        text-align: left;
+    }
+    .galeria-container{
+        display: flex;
+        max-width: 1000px;
+        margin-inline: auto;
+        gap: 1rem;
+
+        .galeria-foto{
+            height: 100%;
+            width: 100%;
+            transition: 1s;
+        }
+
+        .galeria-foto img{
+            width: 100%;
+            aspect-ratio: 1/1;
+            object-fit: cover;
+        }
+        .galeria-foto:hover{
+            
+            transform: scale(1.3,1.3) translateY(-30px);
+        }
+    } 
+}
+section{
+    text-align: center;
+    font-size: 18px;
+    padding-inline: 1rem;
+}
+.tendencias-list{
+    text-align: left;
+
+    .tendencias-items{
+        margin-left: 2rem;
+    }
+}
+.style-club{
+    padding-top: 1rem;
+}
+.galeria2{
+    padding-block: 1rem;
+    text-align: center;
+
+    .galeria-title2{
+        text-align: center;
+        margin-bottom:1rem;
+        font-size: 24px;
+    }
+    .galeria-container2{
+        display: flex;
+        max-width: 1000px;
+        margin-inline: auto;
+        gap: 1rem;
+    }
+    .galeria-foto{
+        height: 100%;
+        width: 100%;
+        transition: 5s;
+    }
+    .galeria-foto img{
+        width: 100%;
+        aspect-ratio: 1/1;
+        object-fit: cover;
+    }
+    .galeria-foto:hover{
+        transition: 1s;
+        transform: scale(1.3,1.3) translateY(-30px);
+    }
+    
+    p{
+        text-align: left;
+    }
+}
+.pinterest-moda{
+    .pinterest-moda-post{
+        .pint1{
+            padding-top: 2rem;
+            height: 449px;
+            width: 100px * 2;
+        }
+        .pint2{
+            padding-top: 2rem;
+            height: 449px;
+            width: 200px;
+        }
+        .pint3{
+            padding-top: 2rem;
+            height: 449px;
+            width: 200px;
+        }
+        .pint4{
+            padding-top: 2rem;
+            height: 449px;
+            width: 200px;
+        }
+    }
+}

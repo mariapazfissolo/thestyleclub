@@ -1,0 +1,204 @@
+@media screen and (max-width:760px) {
+    .header{
+        flex-direction: column;
+        font-size: 15px;
+    }
+    .grid{
+        padding: 2rem 2rem 0 2rem;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(3,1fr);
+        grid-template-areas: 
+        "item1"
+        "item2" 
+        "item3" ;
+
+        .grid-image{
+            height: 250px;
+            width: 200px;
+        }
+        .grid-titulo{
+            font-size: 16px;
+            max-width: 50%;
+        }
+        .grid-sub{
+            max-width: 45%;
+            font-size: 12px;
+            margin: 12px auto 10px;
+            padding-bottom: 1.5rem;
+        }
+    } 
+}
+@media screen and (max-width: 480px) {
+    /* INICIO */
+    .header{
+        flex-direction: column;
+        font-size: 13px;
+
+        .nav{
+            justify-content: center;
+        }
+    }
+    .bienvenidos{
+        .bienvenidos-titulo{
+            font-size: 19px;
+            width: 15rem;
+            padding-bottom: 19px;
+            
+            p{
+                font-size: 14px;
+                margin-inline: 1rem;
+            }
+        }
+    }
+    .galeria{
+        .galeria-title{
+            font-size: 16px;
+        }
+    }
+    /* MODA */
+    .moda{
+        .moda-titulo{
+            font-size: 19px;
+            width: 7rem;
+            padding-bottom: 10px;
+        }  
+    }
+    .galeria{
+         .galeria-title{
+            font-size: 16px;
+        }
+    }
+    .pinterest-moda{
+        .pinterest-moda-post{
+            .pint1{
+                padding-top: 1rem;
+                height: 380px;
+                width: 160px;
+            }
+            .pint2{
+                padding-top: 1rem;
+                height: 380px;
+                width: 160px;
+            }
+            .pint3{
+                padding-top: 1rem;
+                height: 380px;
+                width: 160px;
+            }
+            .pint4{
+                padding-top: 1rem;
+                height: 380px;
+                width: 160px;
+            }
+        }
+    }
+    /* TENDENCIAS */
+    .tendencias{
+         .tendencias-titulo{
+            font-size: 19px;
+            width: 10rem;
+            padding-bottom: 10px;
+        }
+    }
+    .texto{
+        .style-club{
+            padding-top: 1rem;
+        }  
+    }
+    .galeria2{
+        .galeria-title2{
+            font-size: 18px;
+        }
+    }
+    /* LIFESTYLE */
+    .lifestyle{
+         .lifestyle-titulo{
+            font-size: 19px;
+            padding-bottom: 10px;
+            width: 8.5rem;
+        }
+    }
+    .grid{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(4,1fr);
+        grid-template-areas: 
+        "item1"
+        "item2" 
+        "item3"
+        "item4" ;
+
+        .grid-image{
+            height: 250px;
+            width: 200px;
+        }
+        .grid-titulo{
+            font-size: 16px;
+            max-width: 50%;
+        }
+        .grid-sub{
+            max-width: 45%;
+            font-size: 12px;
+            margin: 12px auto 10px;
+            padding-bottom: 1.5rem;
+        }
+    }
+    
+    /* CONTACTO */
+    .contacto{
+        .contacto-titulo{
+            font-size: 19px;
+            padding-bottom: 10px;
+            width: 9rem;
+        }
+    }
+    
+    .formulario{
+        .formulario-contacto{
+            .casilla{
+                .nombre{
+                    height: 2rem;
+                    width: 23rem;
+                }
+                .email{
+                    height: 2rem;
+                    width: 23rem;
+                }
+                .telefono{
+                    height: 2rem;
+                    width: 23rem;
+                }
+            }
+            .casilla-texto{
+                .text-area{
+                    height: 8rem;
+                    width: 23rem;
+                }
+            }
+            .botones{
+                .boton-enviar{
+                    padding-bottom: 1.5rem;
+                    height: 2rem;
+                    width: 10rem;
+                }
+                .boton-borrar{
+                    height: 2rem;
+                    width: 10rem;
+                    padding-bottom: 1.5rem;
+                }
+            }
+        }
+    }
+    /* VIAJES */
+    .viajes{
+        .viajes-titulo{
+            font-size: 19px;
+            width: 7rem;
+            padding-bottom: 10px;
+        }
+    }
+    .card{
+        width: 70%;
+    }
+}
