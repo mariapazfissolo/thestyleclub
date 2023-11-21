@@ -211,7 +211,7 @@ section {
 .galeria2 .galeria-foto {
   height: 100%;
   width: 100%;
-  transition: 5s;
+  transition: 1s;
 }
 .galeria2 .galeria-foto img {
   width: 100%;
@@ -474,6 +474,12 @@ section {
   }
   .galeria .galeria-title {
     font-size: 16px;
+  }
+  .galeria .galeria-container {
+    flex-wrap: wrap;
+  }
+  .galeria2 .galeria-container2 {
+    flex-wrap: wrap;
   }
   .pinterest-moda .pinterest-moda-post .pint1 {
     padding-top: 1rem;
