@@ -195,7 +195,7 @@
   .galeria2 .galeria-foto {
     height: 100%;
     width: 100%;
-    transition: 5s;
+    transition: 1s;
   }
   .galeria2 .galeria-foto img {
     width: 100%;
